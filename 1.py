@@ -16,10 +16,10 @@ print(sys.getsizeof(dq))
 # удаление с конца → O(1)
 
 # очереди
-# queue = deque()
-# queue.append("A")
-# queue.append("B")
-# print(queue.popleft()) # A
-# print(queue)
+queue = deque()
+queue.append("A")
+queue.append("B")
+print(queue.popleft()) # A
+print(queue)
 
 # стеки
